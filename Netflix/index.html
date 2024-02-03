@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Clone</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/c5679ec611.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Banner Section Start -->
+    <section class="w-[100%]  h-[100vh]  bg-[url('Netflix.jpeg')] bg-center bg-cover ">
+
+        
+        <div class="w-[100%] h-[100vh]   bg-[rgba(0,0,0,0.5)]">
+            <header class="max-w-[1170px] mx-auto">
+                <div class="grid sm:grid-cols-2 grid-cols-[30%_auto] px-[10px] items-center">
+                    <figure>
+                        <img src="n-logo.png" class="w-[149px] bg-blend-color-burn " alt="">
+                    </figure>
+                    <div class="flex justify-end gap-[10px]">
+                        <div class="relative ">
+                            <i class="fa-solid fa-language absolute top-[9px] left-[5px]" style="color: hsl(0, 0%, 96%);"></i>
+                            <select class="bg-black text-white border-[1px] border-[white] sm:p-[5px_20px] rounded-[5px]">
+                                <option value="">English</option>
+                                <option value="">Hindi</option>
+                            </select>
+                        </div>
+                        <button class="bg-red-600 rounded-[5px] px-[10px] text-white">Sign In</button>
+                    </div>
+                </div>
+            </header>
+            <div class="max-w-[1170px] mx-auto sm:py-[150px] py-[50px] text-center text-white">
+                <h1 class="sm:text-[50px] text-[35px] font-bold">Unlimited movies, TV shows and more</h1>
+                <h2 class="text-[20px] py-[15px]" >Watch anywhere. Cancel anytime.</h2>
+
+                <p class="text-[20px]">Ready to watch? Enter your email to create or restart your membership.</p>
+               <div class="max-w-[700px] sm:px-[10px] px-[40px] mx-auto mt-[30px]">
+                <form action="" class="grid gap-[20px] sm:grid-cols-[70%_aoto] sm:grid-cols-1">
+                    <input type="text" class="border-[1px] border-[#ccc] pl-[20px] h-[50px] bg-[transparent]" placeholder="Email Address">
+                    <button class="bg-[red] px-[10px] rounded-[5px] text-white py-[15px] hover:bg-[pink] hover:text-[black] duration-300">Get Started</button>
+                </form>
+               </div>
+           
+            </div>
+        </div>
+    </section>
+    <!-- Banner Section End -->
+
+    <!-- Enjoy on you tv section -->
+    <section class="w-[100%] bg-black border-t-[10px] border-t-[#ccc] sm:py-[50px] sm:py-[50px]">
+        <div class="max-w-[1170px] mx-auto px-[15px]">
+            <div class="grid sm:grid-cols-2 sm:grid-cols-1 items-center">
+                <div class="text-white">
+
+                    <h2 class="sm:text-[50px] text-[40px] font-bold">Enjoy on your TV</h2>
+                    <p class="sm:text-[25px] pt-[30px]">Watch on smart TVs, Playstation, Xbox, Chromecast,<br>Apple TV, Blue-ray players and more.</p>
+                </div>
+                <figure class="relative">
+                    <video class="absolute w-[80%] left-[33px] bottom-[20%] z-[1]" data-uia="nmhp-card-animation-asset-video" autoplay="" playsinline="" muted="" loop=""><source src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-in-0819.m4v" type="video/mp4"></video>                    
+                    <img class="relative z-[2]" src="tv.png" alt="">
+                </figure>
+            </div>
+        </div>
+    </section>
+        <!-- Enjoy on you tv end section -->
+    
+        <!-- Download section start -->
+    <section class="w-[100%] bg-black border-t-[10px] border-t-[#ccc] sm:py-[50px] sm:py-[50px]">
+        <div class="max-w-[1170px] mx-auto px-[15px]">
+            <div class="grid sm:grid-cols-2 sm:grid-cols-1 items-center">
+                <figure class="relative">
+                    <!-- <video class="absolute w-[80%] left-[33px] bottom-[20%] z-[1]" data-uia="nmhp-card-animation-asset-video" autoplay="" playsinline="" muted="" loop=""><source src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-in-0819.m4v" type="video/mp4"></video>                     -->
+                    <img class="relative sm:order-1 order-1" src="mobile-0819.jpg" alt="">
+                </figure>
+                <div class="text-white sm:order-2 order-1">
+    
+                    <h2 class="sm:text-[50px] text-[40px] font-bold sm:leading-[65px] leading-[50px]">Download your shows to watch offline</h2>
+                    <p class="sm:text-[25px] pt-[30px]">Save your favourites easily and always have something to watch</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Download section start -->
+
+    <!-- Watch everywhere start  -->
+    <section class="w-[100%] bg-black border-t-[10px] border-t-[#ccc] sm:py-[50px] sm:py-[50px]">
+        <div class="max-w-[1170px] mx-auto px-[15px]">
+            <div class="grid sm:grid-cols-2 sm:grid-cols-1 items-center">
+                <div class="text-white">
+
+                    <h2 class="sm:text-[50px] text-[40px] font-bold">Watch everywhere</h2>
+                    <p class="sm:text-[25px] pt-[30px]">Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</p>
+                </div>
+                <figure class="relative">
+                    <video class="absolute w-[60%] left-[95px] bottom-[45%]" data-uia="nmhp-card-animation-asset-video" autoplay="" playsinline="" muted="" loop=""><source src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-devices-in.m4v" type="video/mp4"></video>                   
+                     <img class="relative z-[2]" src="device-pile-in.png" alt="">
+                </figure>
+            </div>
+        </div>
+    </section>
+    <!-- Watch everywhere end  -->
+
+    <!-- Kids Section start -->
+    <section class="w-[100%] bg-black border-t-[10px] border-t-[#ccc] sm:py-[50px] sm:py-[50px]">
+        <div class="max-w-[1170px] mx-auto px-[15px]">
+            <div class="grid sm:grid-cols-2 sm:grid-cols-1 items-center">
+                <figure class="relative">
+                    <!-- <video class="absolute w-[80%] left-[33px] bottom-[20%] z-[1]" data-uia="nmhp-card-animation-asset-video" autoplay="" playsinline="" muted="" loop=""><source src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-in-0819.m4v" type="video/mp4"></video>                     -->
+                    <img class="relative sm:order-1 order-1" src="kids.png" alt="">
+                </figure>
+                <div class="text-white sm:order-2 order-1">
+    
+                    <h2 class="sm:text-[50px] text-[40px] font-bold sm:leading-[65px] leading-[50px]">Create profiles for kids</h2>
+                    <p class="sm:text-[25px] pt-[30px]">Send childeren on adventures with their favourite character in a space made just for them-free with your membership</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Kids section end -->
+
+    <!-- Frequent Asked q start -->
+    <section class="w-[100%] bg-black border-t-[10px] border-t-[#ccc] sm:py-[50px] sm:py-[50px]">
+        <div class="max-w-[1170px] mx-auto px-[15px]">
+            <h2 class="sm:text-[50px] text-[40px] font-bold sm:leading-[65px] leading-[50px] text-white text-center">Frequently Asked Question</h2>
+            <div class="py-[30px]">
+
+                
+                <div class="bg-[#2d2d2d] mb-[15px]">
+                    <div class=" faqQuestions p-[20px] text-white text-[30px] relative border-b-[2px] border-[black] hover:bg-[rgb(78,78,78)] duration-300 cursor-pointer"><h3>What is Netflix</h3><span class="absolute right-[20px] top-[15px]">+</span></div>
+                    <div class="text-white text-[20px] p-[20px] scale-y-0 h-[0px] origin-top duration-300">
+                        <p>Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries and more – on thousands of internet-connected devices.You can watch as much as you want, whenever you want, without a single ad – all for one low monthly price. There's always something new to discover, and new TV shows and movies are added every week!</p>
+                    </div>
+                    
+                </div>
+
+                <div class="bg-[#2d2d2d] mb-[15px]">
+                    <div class=" faqQuestions p-[20px] text-white text-[30px] relative border-b-[2px] border-[black] hover:bg-[rgb(78,78,78)] duration-300 cursor-pointer"><h3>How much does Netfix cost?</h3><span class="absolute right-[20px] top-[15px]">+</span></div>
+                    <div class="text-white text-[20px] p-[20px] scale-y-0 h-[0px] origin-top duration-300">
+                        <p>Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one fixed monthly fee. Plans range from ₹149 to ₹649 a month. No extra costs, no contracts.</p>
+                    </div>
+                    
+                </div>
+
+                <div class="bg-[#2d2d2d] mb-[15px]">
+                    <div class=" faqQuestions p-[20px] text-white text-[30px] relative border-b-[2px] border-[black] hover:bg-[rgb(78,78,78)] duration-300 cursor-pointer"><h3>Where can I watch?</h3><span class="absolute right-[20px] top-[15px]">+</span></div>
+                    <div class="text-white text-[20px] p-[20px] scale-y-0 h-[0px] origin-top duration-300">
+                        <p>Watch anywhere, anytime. Sign in with your Netflix account to watch instantly on the web at netflix.com from your personal computer or on any internet-connected device that offers the Netflix app, including smart TVs, smartphones, tablets, streaming media players and game consoles.You can also download your favourite shows with the iOS, Android, or Windows 10 app. Use downloads to watch while you're on the go and without an internet connection. Take Netflix with you anywhere.</p>
+                    </div>
+                    
+                </div>
+                
+                <div class="bg-[#2d2d2d] mb-[15px]">
+                    <div class="faqQuestions p-[20px] text-white text-[30px] relative border-b-[2px] border-[black] hover:bg-[rgb(78,78,78)] duration-300 cursor-pointer"><h3>How do I cancel?</h3><span class="absolute right-[20px] top-[15px]">+</span></div>
+                    <div class="text-white text-[20px] p-[20px] scale-y-0 h-[0px] origin-top duration-300">
+                        <p>Netflix is flexible. There are no annoying contracts and no commitments. You can easily cancel your account online in two clicks. There are no cancellation fees – start or stop your account anytime.</p>
+                    
+                </div>
+            </div>
+            
+            <div class="bg-[#2d2d2d] mb-[15px]">
+                <div class=" faqQuestions p-[20px] text-white text-[30px] relative border-b-[2px] border-[black] hover:bg-[rgb(78,78,78)] duration-300 cursor-pointer"><h3>What can I watch on Netflix?</h3><span class="absolute right-[20px] top-[15px]">+</span></div>
+                <div class="text-white text-[20px] p-[20px] scale-y-0 h-[0px] origin-top duration-300">
+                    <p>Netflix has an extensive library of feature films, documentaries, TV shows, anime, award-winning Netflix originals, and more. Watch as much as you want, anytime you want.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="bg-[#2d2d2d] mb-[15px]">
+            <div class=" faqQuestions p-[20px] text-white text-[30px] relative border-b-[2px] border-[black] hover:bg-[rgb(78,78,78)] duration-300 cursor-pointer"><h3>Is Netfix good for kids?</h3><span class="absolute right-[20px] top-[15px]">+</span></div>
+            <div class="text-white text-[20px] p-[20px] scale-y-0 h-[0px] origin-top duration-300">
+                <p>The Netflix Kids experience is included in your membership to give parents control while kids enjoy family-friendly TV shows and films in their own space.Kids profiles come with PIN-protected parental controls that let you restrict the maturity rating of content kids can watch and block specific titles you don’t want kids to see.</p>                    </div>
+            </div>
+        </div>
+        
+    </div>
+        
+    </div>
+</section>
+    <!-- Frequent Asked q end -->
+<script src="script.js"></script>
+</body>
+</html>
